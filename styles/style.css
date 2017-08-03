@@ -14,25 +14,71 @@ h1 {
   position: fixed;
   bottom: 5px;
   right: 5px;
+  z-index: -1000;
+}
+
+.symbol img {
+  width: 20px;
+  padding: 5px;
+}
+
+.time-setting {
+  display: inline-block;
+}
+
+.set-headline {
+  font-family: Helvetica;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.set {
+  display: block;
+  padding: 5px;
+  margin: 5px auto;
+  text-align: center;
+  width: 170px;
+
+}
+
+.num {
+  font-size: 40px;
+  padding: 10px;
+  font-family: 'Archivo', sans-serif;
 }
 
 .container {
   display: inline-block;
-  /*background-color: #007a75;*/
-  font-size: 36px;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
 }
+
+
+
+#setting {
+  display: block;
+  margin: auto;
+  width: 300px;
+
+
+}
+
 
 .item {
   background-color: #00BF96;
+  /*background-color: #9c9796;*/
   text-align: center;
   vertical-align: middle;
-  font-family: Helvetica;
+  font-family: 'Roboto Mono', monospace;
   display: inline-block;
   padding: 10px;
-  width: 100px;
+  width: 120px;
   border-radius: 5px;
   color: white;
+  margin: 0;
 }
 
 h3 {
@@ -40,20 +86,71 @@ h3 {
   margin-top: 0;
   font-size: 24px;
   text-align: center;
+  font-family: Helvetica;
 }
 
+#start {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: fuchsia;
+  font-size: 20px;
+}
+
+#count {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+}
+
+
 .span {
+  /*background-color: #504d4c;*/
   background-color: #00816A;
   border-radius: 5px;
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
   color: white;
-  width: 50px;
-
-
+  width: 30px;
+  margin: 0;
+  font-size: 48px;
+  font-weight: bold;
 }
 
-.title {
+.going {
+  color: #339966;
+}
+
+.headlines {
   padding-bottom: 5px;
   font-size: 20px;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+#session-headline {
+  color: #339966;
+}
+
+#break-headline {
+  color: #993333;
+}
+
+#session-set {
+  border: 4px solid #00816a;
+}
+
+#break-set {
+  border: 4px solid #802000;
+}
+
+#sessionNum {
+  color: #00BF96;
+}
+
+#breakNum {
+  color: #bd2f00;
 }

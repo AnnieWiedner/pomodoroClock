@@ -5,29 +5,59 @@
     <title>Pomodoro Clock</title>
     <link href="https://fonts.googleapis.com/css?family=Archivo:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
     <div id="title">
       <h1>Pomodoro Clock</h1>
+      <div id="start">start timer</div>
     </div>
 
-    <div class="container">
-      <h3 id="action">Continue working..</h3>
+    <div id="setting">
 
-      <div class="item">
-        <div class="title">minutes</div>
-        <span class="span" id="minutes">15</span>
+      <div id="session-set" class="set">
+        <div id="session-headline"class="set-headline"><p>session length</p></div><br />
+        <div class="time-setting">
+          <span class="symbol" id="session-minus"><img src="./images/minus.png"></span>
+          <span class="num" id="sessionNum"></span>
+          <span class="symbol" id="session-plus"><img src="./images/plus.png"></span>
+        </div>
       </div>
 
-      <div class="item">
-        <div class="title">seconds</div>
-        <span class="span" id="seconds" class="item">00</span>
+      <div id="break-set" class="set">
+        <div id="break-headline" class="set-headline"><p>break length</p></div><br />
+        <div class="time-setting">
+          <span class="symbol" id="break-minus"><img src="./images/minus.png"></span>
+          <span class="num" id="breakNum"></span>
+          <span class="symbol" id="break-plus"><img src="./images/plus.png"></span>
+        </div>
       </div>
-
 
     </div>
 
+
+    <div id="count">
+      <h3 class="going" id="action">Continue working..</h3>
+
+      <div class="container">
+
+        <div class="headlines">minutes</div>
+        <div class="item">
+          <span class="span" id="minutes1">0</span>
+          <span class="span" id="minutes2">0</span>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="headlines">seconds</div>
+        <div class="item">
+          <span class="span" id="seconds1">0</span>
+          <span class="span" id="seconds2">0</span>
+        </div>
+      </div>
+
+    </div>
 
 
     <img id="clock" src="images/white-alarm-final.png">
