@@ -20,7 +20,7 @@
         <div id="session-headline"class="set-headline"><p>session length</p></div><br />
         <div class="time-setting">
           <span class="symbol" id="session-minus"><img src="./images/minus.png"></span>
-          <span class="num" id="sessionNum"></span>
+          <span class="num" id="session-num"></span>
           <span class="symbol" id="session-plus"><img src="./images/plus.png"></span>
         </div>
       </div>
@@ -29,7 +29,7 @@
         <div id="break-headline" class="set-headline"><p>break length</p></div><br />
         <div class="time-setting">
           <span class="symbol" id="break-minus"><img src="./images/minus.png"></span>
-          <span class="num" id="breakNum"></span>
+          <span class="num" id="break-num"></span>
           <span class="symbol" id="break-plus"><img src="./images/plus.png"></span>
         </div>
       </div>
@@ -38,22 +38,22 @@
 
 
     <div id="count">
-      <h3 class="going" id="action">Continue working..</h3>
+      <h3 id="action"></h3>
 
       <div class="container">
 
         <div class="headlines">minutes</div>
-        <div class="item">
-          <span class="span" id="minutes1">0</span>
-          <span class="span" id="minutes2">0</span>
+        <div id="min-item" class="item itemGray">
+          <span class="span spanGray" id="minutes1">1</span>
+          <span class="span spanGray" id="minutes2">5</span>
         </div>
       </div>
 
       <div class="container">
         <div class="headlines">seconds</div>
-        <div class="item">
-          <span class="span" id="seconds1">0</span>
-          <span class="span" id="seconds2">0</span>
+        <div id="sec-item" class="item itemGray">
+          <span class="span spanGray" id="seconds1">0</span>
+          <span class="span spanGray" id="seconds2">0</span>
         </div>
       </div>
 
