@@ -1,0 +1,59 @@
+h1 {
+  font-family: 'Archivo', sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+#title {
+  display: block;
+  margin: 0 auto;
+}
+
+#clock {
+  height: 450px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+.container {
+  display: inline-block;
+  /*background-color: #007a75;*/
+  font-size: 36px;
+  padding: 10px;
+}
+
+.item {
+  background-color: #00BF96;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Helvetica;
+  display: inline-block;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+}
+
+h3 {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.span {
+  background-color: #00816A;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  width: 50px;
+
+
+}
+
+.title {
+  padding-bottom: 5px;
+  font-size: 20px;
+}
